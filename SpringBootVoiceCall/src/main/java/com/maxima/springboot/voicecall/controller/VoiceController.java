@@ -16,10 +16,10 @@ import com.twilio.type.PhoneNumber;
 public class VoiceController {
 	
 	 public static final String ACCOUNT_SID = "AC6dd8feb36fd9ef6ab9d28e88b236fe2d";
-	 public static final String AUTH_TOKEN = "c43e17e393b03f852b7708679a06ecf0";
+	 public static final String AUTH_TOKEN = "provide token here";
 	 
 	 public static final String FROM_NUMBER="+12543230123";
-	 public static final String TO_NUMBER="+91 7620254691";
+	 public static final String TO_NUMBER="to be called number";
 	 static {
 		 Twilio.init(ACCOUNT_SID, AUTH_TOKEN);
 	 } 
